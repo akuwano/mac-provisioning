@@ -23,23 +23,68 @@
     # state choices: [head, latest, present, absent, linked, unlinked] (default: latest)
     # install_options: string or sequence (default: none)
     homebrew_packages:
-      - readline
       - openssl
       - { name: openssl, state: linked, install_options: force }
       - ansible
-      - git
-      - git-flow
       - heroku-toolbelt
       - peco
       - nvm
-      - rbenv
-      - rbenv-gem-rehash
-      - ruby-build
-      - the_silver_searcher
+      - zsh-syntax-highlighting
+      - packer
+      - ack
+      - autoconf
+      - cmake
+      - gdbm
+      - libevent
+      - pkg-config
+      - colordiff
+      - libyaml
+      - protobuf
+      - sqlite
+      - tree
+      - mobile-shell
+      - pcre
+      - readline
+      - coreutils
+      - graphviz
+      - bdw-gc
+      - libpng
+      - xz
+      - tmux
       - vim
+      - jq
+      - curl
+      - wget
+      - httpie
+      - w3m
+      - git
+      - git-flow
+      - tig
+      - hub
+      - git-extras
+      - hg
+      - rbenv
+      - ruby
+      - ruby-build
+      - rbenv-gemset
+      - rbenv-gem-rehash
+      - pyenv-virtualenv
+      - mysql
+      - go
+      - boot2docker
+      - docker
+      - mongodb
+      - ctags
+      - fontforge
+      - gibo
       - zsh
       - zsh-completions
-      - zsh-syntax-highlighting
+      - the_silver_searcher
+      - dnsmasq
+      - nodebrew
+      - docker
+      - boot2docker
+      - terraform
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
@@ -54,16 +99,38 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
-      - firefox-ja
-      - flash
-      - google-chrome
-      - google-japanese-ime
-      - iterm2
-      - java6
-      - karabiner
-      - phpstorm
-      - rubymine
-      - slack
-      - sublime-text
-      - vagrant
       - virtualbox
+      - vagrant
+      - vagrant-manager
+      - iterm2
+      - java
+      - google-chrome
+      - firefox
+      - dropbox
+      - kobito
+      - gyazo
+      - mysqlworkbench
+      - sequel-pro
+      - intellij-idea
+      - appcode
+      - quicklook-json
+      - shiftit
+      - alfred
+      - evernote
+      - slack
+      - hipchat
+      - skype
+      - sqwiggle
+      - mou
+      - keepassx
+      - marked
+      - bathyscaphe
+      - limechat
+      - visualvm
+      - yorufukurou
+      - tunnelblick
+      - google-japanese-ime
+      - rubymine
+      - heroku-toolbelt
+      - charles
+
